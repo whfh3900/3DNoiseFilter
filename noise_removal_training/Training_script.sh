@@ -1,0 +1,1 @@
+python train_pcpnet.py --indir ../data/spa --outdir ./results/spa/e500l1e-5r --name spa_lr1e-5_epoch500r  --desc spa_lr1e-5_epoch500_refine --lr 0.00001 --nepoch 500 --refine ../models/denoisingModel/PointCleanNet_model.pth
